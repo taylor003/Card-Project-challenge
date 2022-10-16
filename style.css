@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
+
+*{
+ align-items: flex;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+
+:root {
+ --Dark-cayen:hsl(158, 36%, 37%);
+ --cream:hsl(30, 38%, 92%);
+ --Dark-blue: hsl(212, 21%, 14%);
+ --Dark-grayish-blue: hsl(228, 12%, 48%);
+ --White: hsl(0, 0%, 100%);
+}
+
+body{
+ font-size: 19px;
+ background: var(--cream);
+ background-image: linear-gradient(to right, #ffffb3, #ffe6e6);
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+#container{
+ background: var(--White);
+ box-shadow: 0 15px 30px 1px grey;
+ text-align: center;
+ border-radius: 5px;
+ overflow: hidden;
+ margin: 5em auto;
+ height: 500px;
+ width: 800px;
+}
+
+.desktop-image{
+ position: relative;
+ overflow: hidden;
+ height: auto;
+ float: left;
+ width: 55%;
+ padding-right: 6rem;
+ padding-bottom: 4rem;
+ object-fit: cover;
+}
+
+#container img{
+ width: 100%;
+ height: 100%;
+ border-image: auto;
+ box-shadow: inset;
+ color: red;
+}
+
+
+
+.details {
+ position: relative;
+ text-align: left;
+ overflow: hidden;
+ padding-right: 35px;
+ height: 100%;
+ float: left;
+ width: 40%;
+ word-spacing: -3px;
+}
+
+.details h2{
+ color: grey;
+ font-weight: 300;
+ font-size: 20px;
+ letter-spacing: 5px;
+}
+
+.details h1{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: 750;
+}
+
+.price {
+ display: inline-block;
+ text-align: end;
+ font-display: flex;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price h1{
+ color: var(--Dark-cayen);
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 900;
+ word-spacing: 0.5rem;
+}
+
+.price h1 s{
+ color: grey;
+ font-size: 1.2rem;
+ padding: 1.3rem;
+}
+
+.btn {
+ display: flex;
+ padding: 1rem 2rem;
+ margin-bottom: 0;
+ font-size: 24px;
+ font-weight: 800;
+ /* line-height: 1.42857143; */
+ text-align: center;
+ vertical-align: middle;
+ background-image: none;
+ border: 1px solid transparent;
+ border-radius: 8px;
+ text-decoration: none;
+
+ color: var(--White);
+ background-color: var(--Dark-cayen);
+ border-color: #ccc;
+ box-sizing: content-box;
+}
+
+.btn:hover{
+ background-color: var(--Dark-grayish-blue);
+ cursor: grab;
+}
+
+.shopping-cart{
+ color: var(--cream);
+ text-align: center;
+ font-size: 1rem;
+ padding-left: 2.5rem;
+ font-weight: 1500;
+ word-spacing: 3px;
+}
+
+.fa{
+ padding-right: 0.7rem;
+}
+
